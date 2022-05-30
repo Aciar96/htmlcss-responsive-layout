@@ -10,10 +10,17 @@
     max-width: 80%;
     margin: 0 auto;
 }
+.minicontainer{
+    max-width: 70%;
+    margin: 0 auto;
+}
+.bgc-viol{
+    background-color:#9792E4;
+}
 
 /*header*/
 header {
-    background-color: blue;
+    background-color: #0084FD;
     position: fixed;
     left: 0;
     right: 0;
@@ -32,19 +39,10 @@ header {
 .col-menu {
     height: 40px;
     width: 40px;
-    background-color: brown;
+    background-color: black;
     
 }
 
-@media screen and (min-width:992px) {
-    .col-logo {
-        width: 20%;
-    }
-
-    .col-menu {
-        width: 60%;
-    }
-}
 
 /*main card */
 main {
@@ -60,29 +58,89 @@ main {
     width: 100%;
     margin-bottom: 20px;
     border-radius: 10% ;
-    background-color: rgb(207, 30, 30);
+    background-color: #B5DDFF;
 }
 .big-card{
     height: 100px;
     width: 100%;
-    background-color: red;
+    background-color: #B5DDFF;
     margin-bottom: 20px;
     
     border-radius: 10% ;
 }
+/* main info */
+.row-main{
+    border: 2px dashed slateblue; ;
+}
+.card-inf{
+    height: 200px;
+    width: 100%;
+    background-color: slateblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.big-card-main{
+    height: 200px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10% ;
+    margin: 0;
+    margin-bottom: 20px;
+}
+/*main description*/ 
+.card-descrit{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10% ;
+    background-color: #9792E4;
+}
+.big-card-descrit{
+    height: 100px;
+    width: 100%;
+    background-color: #B5DDFF;
+    margin-bottom: 20px;
+    
+    border-radius: 10% ;
+}
+/* responsive */
 @media screen and (min-width:768px){
-  .row-card{
+    .row-card{
       display: flex;
       flex-wrap: wrap;
-     justify-content: center;
-  }
+     justify-content: space-between;
+    }
   .big-card{
       width: 60%;
-      height: 50px;
+      height: 100px;
       margin-right: 10px;
-  }
+    }
   .card{
       width: 30%;
+      height: 100px;
       margin-right: 5px;
+      
     }
 }
+      @media screen and (min-width:992px) {
+          .col-logo {
+              width: 20%;
+          }
+      
+          .col-menu {
+              width: 60%;
+          }
+          .row-main{
+              display: flex;
+              justify-content: center;
+          }
+          .card-inf{
+              width: 40%;
+          }
+          .big-card-main{
+              width: 40%;
+             margin-top: 100px;
+          }
+          
+          
+      }
