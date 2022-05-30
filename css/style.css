@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 /* utilitis*/
 .container {
     max-width: 80%;
@@ -17,7 +16,6 @@
 .bgc-viol{
     background-color:#9792E4;
 }
-
 /*header*/
 header {
     background-color: #0084FD;
@@ -27,30 +25,23 @@ header {
     height: 100px;
 
 }
-
 .row {
     display: flex;
     justify-content: space-between;
     border: 2px dashed slateblue;
     margin-top: 20px;
 }
-
 .col-logo,
 .col-menu {
     height: 40px;
     width: 40px;
-    background-color: black;
-    
+    background-color: black; 
 }
-
-
 /*main card */
 main {
     padding-top: 150px;
 }
-.row-card{
-    
-    
+.row-card{   
     border: 2px dashed slateblue;
 }
 .card{
@@ -100,15 +91,32 @@ main {
     width: 100%;
     background-color: #B5DDFF;
     margin-bottom: 20px;
-    
     border-radius: 10% ;
 }
+/* main tab */
+.row-tab{
+    border: 2px dashed slateblue;
+}
+.card-tab{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 10% ;
+    background-color: #B5DDFF;
+}
+/*main about us*/
+
 /* responsive */
 @media screen and (min-width:768px){
-    .row-card{
+    .row-card , .row-tab{
       display: flex;
       flex-wrap: wrap;
-     justify-content: space-between;
+      justify-content: space-between;
+    }
+
+    .card-tab{
+        width: 40%;
     }
   .big-card{
       width: 60%;
@@ -119,7 +127,6 @@ main {
       width: 30%;
       height: 100px;
       margin-right: 5px;
-      
     }
 }
       @media screen and (min-width:992px) {
@@ -141,6 +148,7 @@ main {
               width: 40%;
              margin-top: 100px;
           }
-          
-          
+          .card-tab{
+            width: 30%;
+        } 
       }
