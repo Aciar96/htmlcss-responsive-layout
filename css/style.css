@@ -93,9 +93,7 @@ main {
     border: 2px dashed slateblue; 
 }
 .card-inf{
-   
     width: 100%;
-    background-color: slateblue;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -110,8 +108,27 @@ main {
 .col-card{
     padding: 2rem;
 }
-.phone{
-    width: 100%;
+.tit-info{
+ text-align: center;
+ color: #fff;
+}
+.p-plag{
+ text-align: center;
+ color: #fff;
+}
+.tit-plag ,.p-strategic{
+    text-align: center;
+    
+}
+.but-plag{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #9792E4;
+    border: #9792E4;
 }
 
 /*main description*/ 
@@ -221,7 +238,7 @@ main {
           .big-card{
               display: flex;
           }
-          
+
           .phone{
               width: 50%;
           }
