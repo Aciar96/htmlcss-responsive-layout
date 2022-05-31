@@ -16,6 +16,9 @@
 .bgc-viol{
     background-color:#9792E4;
 }
+img{
+   max-width: 100%;
+}
 /*header*/
 header {
     background-color: #0084FD;
@@ -65,19 +68,39 @@ main {
     
     border-radius: 10% ;
 }
+.file{
+    color: #56AEFD;
+    text-align: center;
+    display: block;
+    padding: 10px;
+}
+.tit-card{
+    color:#56AEFD ;
+    text-align: center;
+    padding: 10px;
+}
+.p-big-card ,.p-card{
+    color: #5A6E7F;
+}
+.but-card{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    margin: top 10px;;
+}
 /* main info */
 .row-main{
-    border: 2px dashed slateblue; ;
+    border: 2px dashed slateblue; 
 }
 .card-inf{
-    height: 200px;
+   
     width: 100%;
     background-color: slateblue;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 .big-card-main{
-    height: 200px;
+    
     width: 100%;
     background-color: #fff;
     border-radius: 10% ;
@@ -90,6 +113,7 @@ main {
 .phone{
     width: 100%;
 }
+
 /*main description*/ 
 .card-descrit{
     height: 50px;
@@ -188,12 +212,18 @@ main {
           .col-logo {
               width: 20%;
           }
-      
           .menu {
               display: none;
           }
           .nav{
               display: flex;
+          }
+          .big-card{
+              display: flex;
+          }
+          
+          .phone{
+              width: 50%;
           }
           .it-nav{
               list-style-type: none;
@@ -210,6 +240,7 @@ main {
           .card-inf{
               width: 40%;
           }
+          
           .big-card-main{
               width: 40%;
              margin-top: 100px;
